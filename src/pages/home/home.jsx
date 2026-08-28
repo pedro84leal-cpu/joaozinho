@@ -31,12 +31,12 @@ export default function Home(){
 
                 <div className={styles.descricao}>
                     <h1 className={styles.titulo}>
-                        Musica Popular 
+                        Música Popular 
                         <p className={styles.port}>Portuguesa</p>
                     </h1>
 
                     <p className={styles.slogam}>
-                        Tradição alegria e paixão
+                        Tradição, alegria e paixão
                     </p>
 
                     <div className={styles.spotifyContent}>
@@ -93,7 +93,7 @@ export default function Home(){
                         </Link>
                     </div>
 
-                    <div className={styles.card2}>
+                    <div className={styles.card1}>
                         <div className={styles.redesLogo}>
                             <img src={insta} className={styles.rdLogo} alt='face' />
                         </div>
@@ -114,7 +114,7 @@ export default function Home(){
                         </Link>
                     </div>
 
-                    <div className={styles.card3}>
+                    <div className={styles.card1}>
                         <div className={styles.redesLogo}>
                             <img src={spot} className={styles.rdLogo} alt='face' />
                         </div>

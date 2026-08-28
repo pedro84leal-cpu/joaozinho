@@ -151,14 +151,8 @@
 
     font-size: 1rem;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
 }
-
-
-
-
-
-
 
 
 .cards{
@@ -177,7 +171,7 @@
     align-items: center;
     justify-items: center;
     padding: 8px;
-    border: 1px solid rgba(4, 106, 174, 0.484);
+    border: 1px solid rgba(218, 165, 32, 0.422);
     width: 105px;
     border-radius: 12px;
     gap: 10px;
