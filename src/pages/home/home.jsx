@@ -10,6 +10,7 @@ import email from '../../images/icones/email.png'
 import arrowA from '../../images/icones/arrow drt.png'
 import arrowR from '../../images/icones/rosa.png'
 import arrowV from '../../images/icones/verde.png'
+import tel from '../../images/icones/phone-call.png'
 
 
 
@@ -35,10 +36,7 @@ export default function Home(){
                         <p className={styles.port}>Portuguesa</p>
                     </h1>
 
-                    <p className={styles.slogam}>
-                        Tradição, alegria e paixão
-                    </p>
-
+        
                     <div className={styles.spotifyContent}>
                         <Link className={styles.spotify} >
                             <h1 className={styles.ouvir}>
@@ -51,21 +49,36 @@ export default function Home(){
                     </div>
                 </div>
 
-                <div className={styles.contato}>
-                    <div className={styles.contatoContent}>
+                <div className={styles.booking}>
+                    <div className={styles.tel}>
                         <h1 className={styles.contTit}>
-                            Para concertos e contatos
+                            Para contatos
                         </h1>
+
+                        <Link className={styles.spotify} >
+                            <h1 className={styles.enviar}>
+                                <div className={styles.telContent}>
+                                    <img src={tel} className={styles.tel} alt='logo' />
+                                </div>
+                                Ligar
+                            </h1>
+                        </Link>
                     </div>
 
-                    <Link className={styles.spotify} >
-                        <h1 className={styles.enviar}>
-                            <div className={styles.arrowContent}>
-                                <img src={email} className={styles.arrow} alt='logo' />
-                            </div>
-                                Enviar
+                    <div className={styles.tel}>
+                        <h1 className={styles.contTit}>
+                            Para concertos
                         </h1>
-                    </Link>
+
+                        <Link className={styles.spotify} >
+                            <h1 className={styles.enviar}>
+                                <div className={styles.emailContent}>
+                                    <img src={email} className={styles.email} alt='logo' />
+                                </div>
+                                Enviar
+                            </h1>
+                        </Link>
+                    </div>
                 </div>
 
 
