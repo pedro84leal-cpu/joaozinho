@@ -80,25 +80,18 @@
    
 }
 
+.botaoVivo{
 
-.spotifyContent{
-
-    margin-top: 10px;
-
+    width: 150px;
 }
 
-.spotify{
-
-    text-decoration: none;
-}
-
-.ouvir{
+.btVivo{
 
     display: flex;
     font-size: 0.8rem;
-    border: 1px solid goldenrod;
-    width: 115px;
-    padding: 2px;
+    text-decoration: none;
+    width: 140px;
+    padding: 6px;
     background-color: goldenrod;
     border-radius: 12px;
     text-transform: uppercase;
@@ -106,12 +99,17 @@
     color: rgb(5, 5, 5);
     text-align: center;
     align-items: center;
+    justify-content: center;
     gap: 5px;
 }
 
+
 .arrowContent{
 
-    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
 }
 
 .arrow{
@@ -121,41 +119,100 @@
 
 .booking{
 
-    margin-top: 130px;
+    margin-top: 100px;
     width: 100%;
+    border-radius: 12px;
+    padding: 5px;
+    border: 1px solid rgba(218, 165, 32, 0.38);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
+    gap: 5px;
     align-items: center;
+    justify-items: start;
+    background-color: rgba(0, 0, 0, 0.67);
 }
 
-.tel{
+.iconeTel{
 
+    margin-left: 10px;
+}
+
+.iconeContent{
+
+    width: 35px;
+    margin: 3px;
+}
+
+.icone{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cardBooking{
+
+    width: 250px;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
-    justify-items: center; 
+    grid-template-rows: 0.8fr 1fr;
 }
 
+.titContent{
+    
+    padding: 5px;
+  
+}
 
-.enviar{
+.bokt{
+
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+}
+
+.btContet{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+}
+
+.btLigar{
 
     display: flex;
     font-size: 0.8rem;
-    border: 1px solid goldenrod;
-    width: 100px;
-    padding: 2px;
-    background-color: rgb(7, 7, 7);
+    text-decoration: none;
+    width: 80px;
+    padding: 6px;
+    background-color: goldenrod;
     border-radius: 12px;
     text-transform: uppercase;
     font-weight: 400;
-    color: goldenrod;;
+    color: rgb(5, 5, 5);
     text-align: center;
     align-items: center;
     justify-content: center;
     gap: 5px;
 }
 
+.btEnviar{
+
+    display: flex;
+    font-size: 0.8rem;
+    text-decoration: none;
+    width: 140px;
+    padding: 6px;
+    background-color: goldenrod;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
 
 .emailContent{
 
@@ -178,20 +235,13 @@
     width: 100%;
 }
 
-.contTit{
-
-    font-size: 0.9rem;
-    color: white;
-    font-weight: 400;
-}
-
 
 .cards{
 
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 17px;
+    margin-top: 12px;
     gap: 5px;
 }
 
@@ -202,11 +252,14 @@
     align-items: center;
     justify-items: center;
     padding: 8px;
-    border: 1px solid rgba(218, 165, 32, 0.422);
+    border: 1px solid rgba(241, 149, 29, 0.22);
     width: 105px;
     border-radius: 12px;
     gap: 10px;
     height: auto;
+    background: 
+    linear-gradient(#1a1a1a, #142127) padding-box,
+    linear-gradient(148deg, #f5a52353, #d4af371b) border-box;
 }
 
 .redesLogo{

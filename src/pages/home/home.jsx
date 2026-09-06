@@ -37,47 +37,45 @@ export default function Home(){
                     </h1>
 
         
-                    <div className={styles.spotifyContent}>
-                        <Link className={styles.spotify} >
-                            <h1 className={styles.ouvir}>
+                    <div className={styles.botaoVivo}>
+                        <Link className={styles.btVivo}>                               
                                 <div className={styles.arrowContent}>
                                     <img src={arrow} className={styles.arrow} alt='logo' />
                                 </div>
-                                    Ver agora
-                            </h1>
+                                Ver Joãozinho ao vivo
                         </Link>
                     </div>
                 </div>
 
                 <div className={styles.booking}>
-                    <div className={styles.tel}>
-                        <h1 className={styles.contTit}>
-                            Para contatos
-                        </h1>
-
-                        <Link className={styles.spotify} >
-                            <h1 className={styles.enviar}>
-                                <div className={styles.telContent}>
-                                    <img src={tel} className={styles.tel} alt='logo' />
-                                </div>
-                                Ligar
-                            </h1>
-                        </Link>
+                    <div className={styles.iconeTel}>
+                        <div className={styles.iconeContent}>
+                            <img src={tel} className={styles.icone} alt='tel' />
+                        </div>                        
                     </div>
 
-                    <div className={styles.tel}>
-                        <h1 className={styles.contTit}>
-                            Para concertos
-                        </h1>
-
-                        <Link className={styles.spotify} >
-                            <h1 className={styles.enviar}>
-                                <div className={styles.emailContent}>
-                                    <img src={email} className={styles.email} alt='logo' />
-                                </div>
-                                Enviar
+                    <div className={styles.cardBooking}>
+                        <div className={styles.titContent}>
+                            <h1 className={styles.bokt}>
+                                Contactos para shows
                             </h1>
-                        </Link>
+                        </div>
+                     
+                        <div className={styles.btContet}>
+                            <Link className={styles.btLigar}>
+                                Ligar
+                                 <div className={styles.arrowContent}>
+                                    <img src={arrow} className={styles.arrow} alt='logo' />
+                                </div>
+                            </Link>
+
+                            <Link className={styles.btEnviar}>
+                                Enviar email
+                                <div className={styles.arrowContent}>
+                                    <img src={arrow} className={styles.arrow} alt='logo' />
+                                </div>
+                            </Link>
+                        </div>
                     </div>
                 </div>
 
