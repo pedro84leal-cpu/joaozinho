@@ -48,12 +48,6 @@ export default function Home(){
                 </div>
 
                 <div className={styles.booking}>
-                    <div className={styles.iconeTel}>
-                        <div className={styles.iconeContent}>
-                            <img src={tel} className={styles.icone} alt='tel' />
-                        </div>                        
-                    </div>
-
                     <div className={styles.cardBooking}>
                         <div className={styles.titContent}>
                             <h1 className={styles.bokt}>
@@ -64,25 +58,16 @@ export default function Home(){
                         <div className={styles.btContet}>
                             <Link className={styles.btLigar}>
                                 Ligar
-                                 <div className={styles.arrowContent}>
-                                    <img src={arrow} className={styles.arrow} alt='logo' />
-                                </div>
                             </Link>
 
                             <Link className={styles.btEnviar}>
                                 Enviar email
-                                <div className={styles.arrowContent}>
-                                    <img src={arrow} className={styles.arrow} alt='logo' />
-                                </div>
                             </Link>
                         </div>
                     </div>
                 </div>
-
-
-                    
+                   
                 <div className={styles.cards}>
-
                     <div className={styles.card1}>
                         <div className={styles.redesLogo}>
                             <img src={face} className={styles.rdLogo} alt='face' />
