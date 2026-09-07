@@ -38,12 +38,12 @@ export default function Home(){
 
         
                     <div className={styles.botaoVivo}>
-                        <Link className={styles.btVivo}>                               
-                                <div className={styles.arrowContent}>
-                                    <img src={arrow} className={styles.arrow} alt='logo' />
-                                </div>
-                                Ver Joãozinho ao vivo
-                        </Link>
+                        <a className={styles.btVivo} href='https://www.youtube.com/shorts/p3egrWFOXU4' target='_blank' rel='noopener noreferrer'>
+                            <div className={styles.arrowContent}>
+                                <img src={arrow} className={styles.arrow} alt='logo' />
+                            </div>
+                            Ver Joãozinho ao vivo
+                        </a>
                     </div>
                 </div>
 
@@ -56,13 +56,13 @@ export default function Home(){
                         </div>
                      
                         <div className={styles.btContet}>
-                            <Link className={styles.btLigar}>
+                            <a className={styles.btLigar} href='tel:+351913473859'>
                                 Ligar
-                            </Link>
+                            </a>
 
-                            <Link className={styles.btEnviar}>
+                            <a className={styles.btEnviar} href='mailto:joaozinho@example.com'>
                                 Enviar email
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -81,12 +81,12 @@ export default function Home(){
                              Acompanha as novidades
                         </p>
 
-                        <Link className={styles.btVisitar}>
+                        <a className={styles.btVisitar} href='https://www.facebook.com/Joaozinhoficial' target='_blank' rel='noopener noreferrer'>
                             Visitar
                             <div className={styles.arrow}>                                    
                                 <img src={arrowA} className={styles.acont} alt='face' />
                             </div>
-                        </Link>
+                        </a>
                     </div>
 
                     <div className={styles.card1}>
@@ -102,12 +102,12 @@ export default function Home(){
                             Bastidores e momentos únicos
                         </p>
 
-                        <Link className={styles.btSeguir}>
-                            Seguir
-                            <div className={styles.arrow}>                                    
-                                <img src={arrowR} className={styles.acont} alt='face' />
+                        <a className={styles.btSeguir} href='https://www.instagram.com/joaozinhofficial?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==' target='_blank' rel='noopener noreferrer'>
+                                Seguir
+                            <div className={styles.arrow}>
+                                <img src={arrowR} className={styles.acont} alt='seta' />
                             </div>
-                        </Link>
+                        </a>
                     </div>
 
                     <div className={styles.card1}>
@@ -123,12 +123,12 @@ export default function Home(){
                              Ouça as minhas musicas
                         </p>
 
-                        <Link className={styles.btOuvir}>
+                        <a className={styles.btOuvir} href='https://open.spotify.com/intl-pt/artist/0Eo6rwVviyM68Jo8NBRCBd?si=ZxMTQBjuRH2QJBZpPPfo8A' target='_blank' rel='noopener noreferrer'>
                             Ouvir
                             <div className={styles.arrow}>                                    
                                 <img src={arrowV} className={styles.acont} alt='face' />
                             </div>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>
