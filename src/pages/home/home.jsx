@@ -81,7 +81,7 @@ export default function Home(){
                              Acompanha as novidades
                         </p>
 
-                        <a className={styles.btVisitar} href='https://www.facebook.com/Joaozinhoficial' target='_blank' rel='noopener noreferrer'>
+                        <a className={styles.btVisitar} href='https://www.facebook.com/Joaozinhofficiall' target='_blank' rel='noopener noreferrer'>
                             Visitar
                             <div className={styles.arrow}>                                    
                                 <img src={arrowA} className={styles.acont} alt='face' />
