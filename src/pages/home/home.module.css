@@ -391,3 +391,229 @@
     gap: 5px;
     padding: 5px;
 }
+
+
+
+/* ===================================
+   Telemóveis maiores (ex: iPhone 12/13/14, Pixel)
+   =================================== */
+@media (min-width: 400px) {
+
+    .logoContainer {
+        width: 320px;
+    }
+
+    .descricao {
+        width: 240px;
+    }
+
+    .titulo {
+        font-size: 1.4rem;
+    }
+
+    .slogam {
+        font-size: 1.6rem;
+    }
+
+    .booking {
+        width: 60%;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 115px;
+    }
+}
+
+
+/* ===================================
+   Telemóveis grandes / phablets (ex: iPhone Pro Max)
+   =================================== */
+@media (min-width: 480px) {
+
+    .content {
+        padding: 25px;
+    }
+
+    .logoContainer {
+        width: 340px;
+    }
+
+    .descricao {
+        width: 260px;
+        margin-top: 60px;
+    }
+
+    .booking {
+        width: 55%;
+    }
+
+    .cards {
+        gap: 8px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 120px;
+    }
+}
+
+
+/* ===================================
+   Tablets em modo retrato (ex: iPad Mini, iPad)
+   =================================== */
+@media (min-width: 600px) {
+
+    .content {
+        padding: 40px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .logoContainer {
+        width: 380px;
+    }
+
+    .titulo {
+        font-size: 1.6rem;
+    }
+
+    .slogam {
+        font-size: 1.8rem;
+    }
+
+    .btVivo {
+        width: 170px;
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    .booking {
+        width: 70%;
+        margin-top: 100px;
+    }
+
+    .cards {
+        gap: 12px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 140px;
+        padding: 12px;
+    }
+
+    .faceTit {
+        font-size: 0.9rem;
+    }
+
+    .notas {
+        font-size: 0.7rem;
+    }
+}
+
+
+/* ===================================
+   Tablets em modo paisagem / ecrãs pequenos (ex: iPad landscape)
+   =================================== */
+@media (min-width: 768px) {
+
+    .content {
+        max-width: 600px;
+    }
+
+    .logoContainer {
+        width: 420px;
+    }
+
+    .booking {
+        width: 60%;
+    }
+
+    .cards {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 150px;
+    }
+}
+
+
+/* ===================================
+   Desktop / laptops
+   =================================== */
+@media (min-width: 1024px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content {
+        max-width: 700px;
+        padding: 60px;
+    }
+
+    .logoContainer {
+        width: 460px;
+    }
+
+    .titulo {
+        font-size: 1.8rem;
+    }
+
+    .slogam {
+        font-size: 2rem;
+    }
+
+    .btVivo {
+        width: 190px;
+        font-size: 1rem;
+    }
+
+    .booking {
+        width: 50%;
+    }
+
+    .cards {
+        max-width: 550px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 165px;
+        padding: 14px;
+    }
+
+    .btSeguir,
+    .btVisitar,
+    .btOuvir {
+        width: 95px;
+        font-size: 0.8rem;
+        padding: 7px;
+    }
+}
+
+
+/* ===================================
+   Ecrãs grandes / desktop wide
+   =================================== */
+@media (min-width: 1440px) {
+
+    .content {
+        max-width: 800px;
+    }
+
+    .logoContainer {
+        width: 500px;
+    }
+}
