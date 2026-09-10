@@ -60,7 +60,7 @@ export default function Home(){
                                 Ligar
                             </a>
 
-                            <a className={styles.btEnviar} href='mailto:info@joaozinhooficial.pt'>
+                            <a className={styles.btEnviar} href='mailto:geral@joaozinhooficial.pt'>
                                 Enviar email
                             </a>
                         </div>
