@@ -608,7 +608,7 @@
    Ecrãs grandes / desktop wide
    =================================== */
 @media (min-width: 1440px) {
-
+    
     .content {
         max-width: 800px;
     }
